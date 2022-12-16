@@ -39,7 +39,9 @@ export default function Teste() {
       </div>
       <div className="d3">
       
-            <div>Rua: {data.logradouro}</div>
+            <div>Rua:
+               {data.logradouro}
+ </div>
             <div>CEP: {data.cep}</div>
             <div>Bairro:{data.bairro}</div>
             <div>Localidade: {data.localidade}</div>

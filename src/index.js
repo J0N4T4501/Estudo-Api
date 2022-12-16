@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Teste from './cep';
 import reportWebVitals from './reportWebVitals';
-
+import Appx from './b';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Teste />
+    <Appx />
   </React.StrictMode>
 );
 

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 
-function App() {
+export default function Appx() {
   const [data, defDados] = useState({});
   const [localidade, defLocalidade] = useState("");
   
